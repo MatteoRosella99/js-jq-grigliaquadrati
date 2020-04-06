@@ -1,0 +1,58 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #4c5b85;
+}
+button{
+  padding: 7px 11px;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+button:hover{
+  cursor: pointer;
+}
+.sezionegriglia{
+  width: 40%;
+  padding: 20px;
+  min-width: 800px;
+  margin: auto;
+  margin-top: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #94b1ff;
+}
+.sezionegriglia::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.fif{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.foot{
+  width: 40%;
+  margin: auto;
+  min-width: 800px;
+}
+.casella{
+  float: left;
+  width: 12%;
+  border: solid 1px black;
+  height: 80px;
+  border-radius: 8px;
+  margin: 1px;
+  background-color: #94f1ff;
+}
+.casella:hover{
+  cursor: pointer;
+}
+.verde{
+  background-color: #16db4b;
+}
+.rosso{
+  background-color: #db2525;
+}
